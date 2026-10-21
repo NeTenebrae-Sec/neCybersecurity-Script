@@ -1,14 +1,14 @@
-# 🧠 Script de Ciberseguridad | EXPERIMENTAL
+# Script de Ciberseguridad | EXPERIMENTAL
 
-El archivo **`Cybersecurity.sh`** complementa [mi entorno de trabajo](https://github.com/NeTenebraes/neBSPWM-dotfiles) preparando Arch Linux para un flujo orientado a **ciberseguridad, bug bounty y análisis de vulnerabilidades**. Su enfoque no es estético, sino funcional: **automatiza tareas técnicas que normalmente requerirían decenas de pasos manuales**.
+El archivo **`Cybersecurity.sh`** complementa [mi entorno de trabajo](https://github.com/NeTenebrae-Sec/neBSPWM) preparando Arch Linux para un flujo orientado a **ciberseguridad, bug bounty y análisis de vulnerabilidades**. Su enfoque no es estético, sino funcional: **automatiza tareas técnicas que normalmente requerirían decenas de pasos manuales**.
 
-## 🔍 ¿Qué diablos hace?
+## ¿Qué diablos hace?
 
 - **Integra herramientas de seguridad** dentro del entorno gráfico, respetando la estética del sistema *(íconos, menús en Rofi y accesos integrados en `~/.local/share/applications`)*.  
 - **Instala y configura herramientas esenciales de hacking y análisis:**
-  - **Burp Suite Community** → Proxy y escáner HTTP/S, con wrapper optimizado para Wayland/X11.
-  - **Caido** → Proxy moderno y liviano, descargado dinámicamente desde GitHub e integrado directamente al menú de aplicaciones.
-  - **Firejail** → Crea **navegadores aislados** con perfiles diferenciados:
+  - **Burp Suite Community** -> Proxy y escáner HTTP/S, con wrapper optimizado para Wayland/X11.
+  - **Caido** -> Proxy moderno y liviano, descargado dinámicamente desde GitHub e integrado directamente al menú de aplicaciones.
+  - **Firejail** -> Crea **navegadores aislados** con perfiles diferenciados:
     - *Navegador Personal*: aislamiento estándar, pensada para uso diario.  
     - *Navegador Bug Bounty*: entorno sandbox con red privada, DNS dedicados y caché independiente, ideal para investigación y pruebas sin contaminar tus perfiles personales.
 - **Virtualización configurada automáticamente:**
